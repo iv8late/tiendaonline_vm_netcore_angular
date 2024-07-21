@@ -1,0 +1,58 @@
+<div class="container mx-auto p-4">
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-2xl font-bold mb-4">Mi Cesta</h2>
+      <div class="mb-4">
+        <label for="numeroDocumento" class="block text-gray-700 font-bold mb-2">Número de Documento:</label>
+        <input type="text" id="numeroDocumento" name="numeroDocumento" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" value="123456789" disabled>
+      </div>
+      <div class="mb-4">
+        <label for="tipoPago" class="block text-gray-700 font-bold mb-2">Tipo de Pago:</label>
+        <input type="text" id="tipoPago" name="tipoPago" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" value="Tarjeta de Crédito" disabled>
+      </div>
+      <div class="mb-4">
+        <label for="fechaRegistro" class="block text-gray-700 font-bold mb-2">Fecha de Registro:</label>
+        <input type="text" id="fechaRegistro" name="fechaRegistro" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" value="2024-07-21" disabled>
+      </div>
+      <div class="mb-4">
+        <label for="totalTexto" class="block text-gray-700 font-bold mb-2">Total:</label>
+        <input type="text" id="totalTexto" name="totalTexto" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" value="$100.00" disabled>
+      </div>
+      <h3 class="text-xl font-bold mb-4">Detalles de la Factura</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white">
+          <thead>
+            <tr>
+              <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm leading-4 font-medium text-gray-700 uppercase tracking-wider">Producto</th>
+              <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm leading-4 font-medium text-gray-700 uppercase tracking-wider">Cantidad</th>
+              <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm leading-4 font-medium text-gray-700 uppercase tracking-wider">Precio</th>
+              <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm leading-4 font-medium text-gray-700 uppercase tracking-wider">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-2 px-4 border-b border-gray-200">Producto 1</td>
+              <td class="py-2 px-4 border-b border-gray-200">2</td>
+              <td class="py-2 px-4 border-b border-gray-200">$10.00</td>
+              <td class="py-2 px-4 border-b border-gray-200">$20.00</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border-b border-gray-200">Producto 2</td>
+              <td class="py-2 px-4 border-b border-gray-200">1</td>
+              <td class="py-2 px-4 border-b border-gray-200">$30.00</td>
+              <td class="py-2 px-4 border-b border-gray-200">$30.00</td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+          </tbody>
+        </table>
+      </div>
+      <div class="flex items-center justify-between mt-4">
+        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          Vaciar Cesta
+        </button>
+        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          Proceder al Pago
+        </button>
+      </div>
+    </div>
+  </div>
+  

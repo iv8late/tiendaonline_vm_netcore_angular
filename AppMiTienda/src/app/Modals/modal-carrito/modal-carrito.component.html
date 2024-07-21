@@ -1,0 +1,11 @@
+<!-- cart-sidebar.component.html -->
+<div class="w-80 h-full bg-white shadow-lg p-4">
+  <h2 class="text-xl font-bold mb-4">Carrito de Compras</h2>
+  <div *ngFor="let item of data.items" class="mb-4">
+    <p>{{ item.nombre }} - {{ item.cantidad }} x {{ item.precio | currency }}</p>
+  </div>
+  <div class="mt-4">
+    <p class="font-bold">Total: {{ data.total | currency }}</p>
+  </div>
+  <button (click)="close()" class="mt-4 w-full py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-bold">Cerrar</button>
+</div>

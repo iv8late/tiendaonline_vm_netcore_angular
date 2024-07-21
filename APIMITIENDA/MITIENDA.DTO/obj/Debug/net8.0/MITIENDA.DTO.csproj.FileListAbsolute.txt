@@ -1,0 +1,11 @@
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\bin\Debug\net8.0\MITIENDA.DTO.deps.json
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\bin\Debug\net8.0\MITIENDA.DTO.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\bin\Debug\net8.0\MITIENDA.DTO.pdb
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\MITIENDA.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\MITIENDA.DTO.AssemblyInfoInputs.cache
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\MITIENDA.DTO.AssemblyInfo.cs
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\MITIENDA.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\MITIENDA.DTO.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\refint\MITIENDA.DTO.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\MITIENDA.DTO.pdb
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.DTO\obj\Debug\net8.0\ref\MITIENDA.DTO.dll

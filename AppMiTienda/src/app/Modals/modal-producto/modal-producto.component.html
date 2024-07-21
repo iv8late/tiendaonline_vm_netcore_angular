@@ -1,0 +1,41 @@
+<div class="modal">
+    <div class="modal-content">
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">{{ tituloAccion }} Producto</h2>
+        <form [formGroup]="formularioProducto" (ngSubmit)="guardarEditar_Producto()">
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Nombre</label>
+            <input type="text" formControlName="nombre" class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm
+             focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Categoría</label>
+            <select formControlName="idCategoria" class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm
+             focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              <option *ngFor="let categoria of listaCategorias" [value]="categoria.idCategoria">{{ categoria.nombre }}</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Stock</label>
+            <input type="number" formControlName="stock" class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Precio</label>
+            <input type="number" formControlName="precio" class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+          </div>
+          <!-- <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Estado</label>
+            <select formControlName="esActivo" class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              <option value="1">Activo</option>
+              <option value="0">No Activo</option>
+            </select>
+          </div> -->
+          <div class="flex justify-end">
+            <button mat raised-button mat-dialog-close type="button" (click)="cerrarModal()" class="mr-2 py-2 px-4 bg-gray-500 text-white rounded-md hover:bg-gray-600">Cancelar</button>
+            <button mat raised-button [disabled]="formularioProducto.invalid" type="submit" class="py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600">{{ botonAccion }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,120 @@
+<div class="mb-4 grid grid-cols-1 gap-6 xl:grid-cols-2">
+    <div class="relative flex flex-row bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
+      <div class="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
+        <div>
+          <h6
+          class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900 mb-1">
+          Nueva Venta</h6>
+           <div class="flex-row gap-4">
+            <form [formGroup]="formularioProductoVenta" (ngSubmit)="agregarProductoParaVenta()">
+              <div class="mr-auto md:mr-4 md:w-20 relative w-full ">
+              <mat-form-field>
+                <input type="text" placeholder="" [matAutocomplete]="auto" formControlname="producto" class="peer w-full h-full bg-transparent text-gray-900 
+                  font-sans font-normal outline outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-gray-300  
+                    border focus:border-2 text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-x-blue-500 focus:border-b-blue-500
+                    focus:border-t-transparent flex gap-4">
+                <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
+                  (optionSelected)="productoParaVenta($event)" [displayWith]="mostrarProducto">
+                  <mat-option *ngFor="let option of listaProductosFiltro"
+                    [value]="option">{{option.nombre}}</mat-option> </mat-autocomplete>
+                <label
+                  class="flex select-none pointer-events-none absolute left-0 font-normal
+                  peer-placeholder-shown:text-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent 
+                  peer-disabled:peer-placeholder-shown:text-blue-gray- transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] 
+                  peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px]
+                  before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 
+                  before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent 
+                  after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] 
+                  after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 
+                  after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent 
+                  peer-placeholder-shown:leading-[3.75] text-sky-500 peer-focus:text-blue-500 before:border-blue-900
+                  peer-focus:before:border-blue-500 after:border-blue-gray-200 peer-focus:after:border-blue-500">Producto
+                </label>
+              </mat-form-field>
+              </div>
+              <div class="CantidadCuadro">
+              <input type="number" id="quantityInput"
+              class="peer w-full h-full bg-transparent text-gray-900 font-sans font-normal outline outline-0 focus:outline-0 transition-all placeholder-shown:border 
+              placeholder-shown:border-blue-gray-200 border focus:border-2  text-sm px-2 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-blue-500 "
+              placeholder="Cantidad">
+              </div>
+              <div class="OptionCuadro">
+              <select id="paymentType" class="border border-gray-300  text-sm px-2 py-2.5 rounded-[7px] ">
+              <option value="tarjeta">Tarjeta de Crédito</option>
+              <option value="efectivo">Efectivo</option>
+              </select>
+              </div>
+              <div class="Totalcuadro">
+              <button  type="button" id="totalInput" class="peer w-full h-full bg-transparent text-gray-900 font-sans font-normal outline outline-0 
+             focus:outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 border focus:border-2 text-sm px-3 py-2.5 rounded-[7px]
+             border-blue-gray-200 focus:border-blue-500" placeholder="Total" readonly> total: </button>
+              </div>
+              <button (click)="agregarProductoParaVenta()" class="middle none font-sans font-medium text-center uppercase transition-all
+              disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-4 rounded-lg text-white bg-blue-500 
+              hover:bg-blue-600 active:bg-blue-700" type="button"> Agregar
+               </button>
+            </form>
+         </div>
+        </div>
+       <!-- cuadro -->
+  
+         <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
+      <table class="w-full min-w-[640px] table-auto">
+      <thead>
+        <tr>
+          <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+            <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Producto</p>
+          </th>
+          <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+            <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Cantidad</p>
+          </th>
+          <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+            <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Precio</p>
+          </th>
+          <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+            <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Total</p>
+          </th>
+          <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+            <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Acciones</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="productTableBody">
+        <!-- <tr *ngFor="let producto of dataListaProductos.data">
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.nombre }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.cantidad }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.precioTexo }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.esActivo == 1 ? 'Activo' :
+              'No Activo' }}</td> -->
+        <!-- <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">
+              <div class="flex gap-2">
+                <button (click)="eliminarProducto(detalle)"
+                  class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-red-500 hover:bg-red-600 active:bg-red-700"
+                  type="button">
+                  Eliminar
+                </button>
+              </div>
+            </td>
+          </tr> -->
+      </tbody>
+    </table>
+          </div>
+          <div class="p-6 flex items-center justify-end">
+    <button
+      class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white bg-green-500 hover:bg-green-600 active:bg-green-700"
+      type="button">
+      Registrar
+    </button>
+      </div>
+   </div>
+  </div>
+</div>
+
+
+
+
+  <!-- <div class="Totalcuadro">
+  <input type="text" id="totalInput" class="peer w-full h-full bg-transparent text-gray-900 font-sans font-normal outline outline-0 
+ focus:outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 border focus:border-2 text-sm px-3 py-2.5 rounded-[7px]
+ border-blue-gray-200 focus:border-blue-500 flex gap-4" placeholder="Total" readonly>
+  </div> -->

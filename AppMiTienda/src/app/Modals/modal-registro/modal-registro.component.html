@@ -1,0 +1,122 @@
+<div class="modal">
+  <div class="modal-content">
+    <div class="p-6 bg-white rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">{{ tituloAccion }} Usuario</h2>
+      <form [formGroup]="formularioUsuario" (ngSubmit)="registrarUsuario()">
+        <div class="mb-4">
+          <label for="nombreCompleto" class="block text-sm font-medium text-gray-700">Nombre Completo</label>
+          <input type="text" formControlName="nombreCompleto" class="mt-1 block w-full h-7  rounded-md border-gray-400 border-2  border-opacity-40 shadow-sm
+       focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+        </div>
+        <div class="mb-4">
+          <label for="correo" class="block text-sm font-medium text-gray-700">Correo</label>
+          <input type="email" formControlName="correo"
+            class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+        </div>
+        <div class="mb-4">
+          <label  for="cedula" class="block text-sm font-medium text-gray-700">Cédula</label>
+          <input type="text" formControlName="cedula"
+            class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium text-gray-700">Clave</label>
+          <div class="relative">
+            <input [type]="ocultarPassword ? 'password' : 'text'" formControlName="clave"
+              class="mt-1 block w-full h-7 rounded-md border-gray-400 border-2 border-opacity-40 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+            <button type="button" (click)="togglePasswordVisibility()"
+              class="absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5">
+              <mat-icon>{{ ocultarPassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="flex justify-end">
+          <button mat raised-button mat-dialog-close type="button"(click)="cerrarModal()"
+            class="mr-2 py-2 px-4 bg-gray-500 text-white rounded-md hover:bg-gray-600">Cancelar</button>
+          <button mat raised-button [disabled]="formularioUsuario.invalid"
+            type="submit" class="py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600">{{ botonAccion
+            }}</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="modal"*ngIf="mostrarModal">
+    <div class="modal-content">
+      <span class="close" (click)="close()">×</span>
+      <form [formGroup]="formularioUsuario" (ngSubmit)="guardarEditar_Usuario()">
+        <div class="mb-4">
+          <label for="nombreCompleto" class="block text-sm font-medium mb-2">Nombre Completo</label>
+          <input type="text" id="nombreCompleto" formControlName="nombreCompleto" class="w-full px-3 py-2
+           bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="correo" class="block text-sm font-medium mb-2">Correo </label>
+          <input type="email" id="correo" formControlName="correo" class="w-full px-3 py-2
+           bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="idRol" class="block text-sm font-medium mb-2">Rol</label>
+          <select id="idRol" formControlName="idRol" class="w-full px-3 py-2
+           bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option *ngFor="let item of listaRoles" [value]="item.idRol">{{item.nombre}}</option>
+          </select>
+        </div>
+        <div class="mb-4 relative">
+          <label for="clave" class="block text-sm font-medium mb-2">Contraseña</label>
+          <input [type]="ocultarPassword ? 'password' : 'text'" id="clave" formControlName="clave" class="w-full px-3 py-2
+           bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <button type="button" (click)="togglePasswordVisibility()" class="absolute inset-y-0 right-0 px-3 py-2
+           text-gray-400 hover:text-gray-200 focus:outline-none">
+            <i class="fi fi-rr-eye-crossed" *ngIf="ocultarPassword"></i>
+            <i class="fi fi-rr-eye" *ngIf="!ocultarPassword"></i>
+          </button>
+        </div>
+        <div class="mb-4">
+          <label for="estado" class="block text-sm font-medium mb-2">Estado</label>
+          <select id="esActivo" formControlName="esActivo" class="w-full px-3 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="1">Activo</option>
+            <option value="0">No Activo</option>
+          </select>
+        </div>
+        <div class="flex justify-end space-x-4 mt-4">
+            <button type="button" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700" (click)="close()">Volver</button>
+            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700" [disabled]="formularioUsuario.invalid" 
+            (click)="guardarEditar_Usuario()">{{botonAccion}}</button>
+          </div>
+      </form>
+    </div>
+  </div> -->

@@ -1,0 +1,99 @@
+<div class="mb-4 grid grid-cols-1 gap-6 xl:grid-cols-2">
+    <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
+      <div class="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
+        <div>
+          <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900 mb-1">Historial de Ventas</h6>
+          <div class="flex gap-4">
+            <select id="searchType" class="border border-gray-300 rounded-md text-sm" onchange="toggleSearchFields()">
+              <option value="dates">Buscar por Fechas</option>
+              <option value="saleNumber">Buscar por Número de Venta</option>
+            </select>
+            <div id="dateFields" class="flex gap-4">
+              <input type="date" class="peer w-full h-full bg-transparent text-gray-900 font-sans font-normal outline outline-0 focus:outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-blue-500" placeholder="Fecha Inicio">
+              <input type="date" class="peer w-full h-full bg-transparent text-gray-900 font-sans font-normal outline outline-0 focus:outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-blue-500" placeholder="Fecha Fin">
+            </div>
+            <div id="saleNumberField" class="hidden">
+              <input type="text" class="peer w-full h-full bg-transparent text-gray-900 font-sans font-normal outline outline-0 focus:outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-blue-500" placeholder="Número de Venta">
+            </div>
+            <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+              Buscar
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- cuadro -->
+      <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
+        <table class="w-full min-w-[640px] table-auto">
+          <thead>
+            <tr>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Fecha Registro</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Número de Venta</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Tipo de Pago</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Total</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-3 px-5 border-b border-blue-gray-50">
+                <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-bold">2024-07-14</p>
+              </td>
+              <td class="py-3 px-5 border-b border-blue-gray-50">
+                <p class="block antialiased font-sans text-xs font-medium text-blue-gray-600">12345</p>
+              </td>
+              <td class="py-3 px-5 border-b border-blue-gray-50">
+                <p class="block antialiased font-sans text-xs font-medium text-blue-gray-600">Tarjeta de Crédito</p>
+              </td>
+              <td class="py-3 px-5 border-b border-blue-gray-50">
+                <p class="block antialiased font-sans text-xs font-medium text-blue-gray-600">$150.00</p>
+              </td>
+            </tr>
+            <!-- Más filas de ejemplo -->
+          </tbody>
+        </table>
+      </div>
+      <div class="p-6 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="text-sm text-gray-600">Items por página:</span>
+          <select class="border border-gray-300 rounded-md text-sm">
+            <option>10</option>
+            <option>20</option>
+            <option>50</option>
+          </select>
+        </div>
+        <div class="flex items-center gap-2">
+          <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+            Anterior
+          </button>
+          <input type="number" class="w-12 text-center border border-gray-300 rounded-md text-sm" placeholder="1">
+          <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+            Siguiente
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    function toggleSearchFields() {
+      const searchType = document.getElementById('searchType').value;
+      const dateFields = document.getElementById('dateFields');
+      const saleNumberField = document.getElementById('saleNumberField');
+      
+      if (searchType === 'dates') {
+        dateFields.classList.remove('hidden');
+        saleNumberField.classList.add('hidden');
+      } else {
+        dateFields.classList.add('hidden');
+        saleNumberField.classList.remove('hidden');
+      }
+    }
+  </script>
+  

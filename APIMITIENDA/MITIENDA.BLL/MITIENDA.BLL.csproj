@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MITIENDA.DAL\MITIENDA.DAL.csproj" />
+    <ProjectReference Include="..\MITIENDA.DTO\MITIENDA.DTO.csproj" />
+    <ProjectReference Include="..\MITIENDA.Models\MITIENDA.Models.csproj" />
+    <ProjectReference Include="..\MITIENDA.Utility\MITIENDA.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

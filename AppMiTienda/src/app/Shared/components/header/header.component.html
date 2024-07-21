@@ -1,0 +1,35 @@
+<div class="flex flex-col-reverse justify-between gap-4 md:flex-row md:items-center">
+  <div class="capitalize">
+    <h6 class="block antialiased tracking-normal font-bold lexend-deca text-base leading-relaxed text-cyan-200 m-0 p-1">TIENDA ONLINE</h6>
+  </div>
+  <div class="flex place-items-center gap-2">
+    
+      <button *ngIf="!authService.estaAutenticado()" (click)="ingresarUsuario()"class="middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-cyan-300 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 xl:flex items-center gap-2 px-2" type="button">
+        <i class="fi fi-rr-user-add"></i>Iniciar Sesión
+      </button>
+      <button  (click)="nuevoUsuario()"class="middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-cyan-300 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 xl:flex items-center gap-2 px-8" type="button">
+        <i class="fi fi-rr-user-add"></i>Registrar
+      </button>
+   
+    <button *ngIf="authService.estaAutenticado()" (click)="cerrarSesion()" aria-expanded="false" aria-haspopup="menu" id=":r2:" class="relative middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-10 max-w-[40px] h-10 max-h-[40px] rounded-lg text-xs text-white hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30" type="button">
+      <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+        <i class="fi fi-bs-power"></i>
+      </span>
+    </button>
+  </div>
+</div>
+
+<nav class="bg-transparent text-white py-2">
+  <div class="container mx-auto flex justify-between px-4">
+    <div class="flex space-x-8">
+      <a routerLink="/inicio" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-rs-map-marker-home"></i> Inicio</a>
+      <a routerLink="/productos" class="hover:text-blue-400 uppercase flex items-center gap-2"><i class="fi fi-rr-computer"></i>Productos</a>
+      <a routerLink="/perfil" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-rr-user"></i>Perfil</a>
+      <a routerLink="/cesta" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-rs-basket-shopping-minus"></i>Mi Cesta</a>
+    </div>
+    <div class="flex space-x-4">
+     
+      
+    </div>
+  </div>
+</nav>

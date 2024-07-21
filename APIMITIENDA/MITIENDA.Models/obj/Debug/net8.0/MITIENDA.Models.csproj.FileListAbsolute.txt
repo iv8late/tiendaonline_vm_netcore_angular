@@ -1,0 +1,14 @@
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\bin\Debug\net8.0\MITIENDA.Models.deps.json
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\bin\Debug\net8.0\MITIENDA.Models.runtimeconfig.json
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\bin\Debug\net8.0\MITIENDA.Models.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\bin\Debug\net8.0\MITIENDA.Models.pdb
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.csproj.AssemblyReference.cache
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.AssemblyInfoInputs.cache
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.AssemblyInfo.cs
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.csproj.CoreCompileInputs.cache
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\refint\MITIENDA.Models.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.pdb
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\MITIENDA.Models.genruntimeconfig.cache
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.Models\obj\Debug\net8.0\ref\MITIENDA.Models.dll

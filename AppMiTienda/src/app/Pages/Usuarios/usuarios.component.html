@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mb-4 grid grid-cols-1 gap-6 xl:grid-cols-2">
+  <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
+    <div class="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
+      <div>
+        <h6 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-relaxed text-blue-gray-900 mb-4">Usuarios</h6>
+        <button (click)="nuevoUsuario()" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50
+         disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white bg-blue-500 hover:bg-blue-600
+          active:bg-blue-700 w-40 space-x-2" type="button">
+          <i class="fi fi-rr-user-add"></i>
+          <span>Nuevo Usuario</span>
+        </button>
+      </div>
+    </div>
+    <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
+      <table class="w-full min-w-[640px] table-auto">
+        <thead>
+          <tr>
+            <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+              <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Nombre Completo</p>
+            </th>
+            <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+              <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Correo</p>
+            </th>
+            <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+              <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Rol</p>
+            </th>
+            <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+              <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Estado</p>
+            </th>
+            <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+              <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Acciones</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let usuario of dataListaUsuarios.data">
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.nombreCompleto }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.correo }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.rolDescripcion }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.esActivo == 1 ? 'Activo' : 'No Activo' }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">
+              <div class="flex gap-2">
+                <button (click)="editarUsuario(usuario)" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700" type="button">
+                  Editar
+                </button>
+                <button (click)="eliminarUsuario(usuario)" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-red-500 hover:bg-red-600 active:bg-red-700" type="button">
+                  Eliminar
+                </button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="p-6 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-sm text-gray-600">Usuarios por página:</span>
+        <select class="border border-gray-300 rounded-md text-sm">
+          <option>10</option>
+          <option>20</option>
+          <option>50</option>
+        </select> 
+      </div>
+      <div class="flex items-center gap-2">
+        <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+          Anterior
+        </button>
+        <input type="number" class="w-12 text-center border border-gray-300 rounded-md text-sm" placeholder="1">
+        <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+          Siguiente
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+
+
+<div class="mb-4 grid grid-cols-1 gap-6 xl:grid-cols-2">
+    <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
+      <div class="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
+        <div>
+          <h6 class="block antialiased tracking-normal font-sans text-2xl  font-semibold leading-relaxed text-blue-gray-900 mb-4">Usuarios</h6>
+          
+           <button (click)="nuevoUsuario()" class="middle none font-sans font-medium 
+          text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none 
+          disabled:pointer-events-none text-xs py-3 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700  w-40 space-x-2"
+           type="button"><i class="fi fi-rr-user-add" ></i>
+           <span>Nuevo Usuario</span>
+          </button>
+        </div>
+      </div>
+      <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
+        <table class="w-full min-w-[640px] table-auto">
+          <thead>
+            <tr>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Nombre Completo</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Correo</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Rol</p>
+              </th><th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Estado</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Acciones</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let usuario of dataListaUsuarios">
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.nombreCompleto }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.rolDescripcion }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.correo }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.esActivo==1?'Activo':'No Activo'}}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">
+                <div class="flex gap-2">
+                  <button (click)="editarUsuario(usuario)"class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700" type="button">
+                    Editar</button>
+                    <button (click)="eliminarUsuario(usuario)" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-red-500 hover:bg-red-600 active:bg-red-700" type="button">
+                   Eliminar</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="p-6 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="text-sm text-gray-600">Usuarios por página:</span>
+          <select class="border border-gray-300 rounded-md text-sm">
+            <option>10</option>
+            <option>20</option>
+            <option>50</option>
+          </select> 
+        </div>
+        <div class="flex items-center gap-2">
+          <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+            Anterior
+          </button>
+          <input type="number" class="w-12 text-center border border-gray-300 rounded-md text-sm" placeholder="1">
+          <button class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+            Siguiente
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   -->
+<!-- Modal -->
+<!-- <div *ngIf="mostrarModal" class="fixed inset-0 z-50 flex items-center justify-center bg-gray-800/75">
+  <div class="modal-content bg-white rounded-lg shadow-lg p-6"role="dialog" aria-labelledby="modal-title">
+    <h2 class="text-xl mb-4">{{ usuarioSeleccionado ? 'Editar Usuario' : 'Nuevo Usuario' }}</h2>
+    
+<app-modal-usuario [datosUsuario]="usuarioSeleccionado" **[mostrarModal]="mostrarModal"** (closeModal)="cerrarModal()"></app-modal-usuario> -->
+    <!-- <button class="bg-gray-500 text-white px-4 py-2 rounded mt-4" (click)="cerrarModal()">Cancelar</button>
+  </div>
+</div>  -->
+
+
+
+<!-- <mat-paginator [pageSizeOptions]="[10, 20, 50]" showFirstLastButtons class="flex flex-row space-x-2">
+            <mat-form-field appearance="outline" class="w-20">
+              <mat-label>Items</mat-label>
+              <mat-select [(ngModel)]="selectedPageSize" (selectionChange)="changePageSize($event.value)">
+                <mat-option *ngFor="let pageSize of pageSizeOptions" [value]="pageSize">
+                  {{ pageSize }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+            <div class="flex items-center">
+              <button mat-icon-button type="button" [disabled]="paginacionTabla.hasPreviousPage() === false" (click)="paginacionTabla.previousPage()">
+                <mat-icon>chevron_left</mat-icon>
+              </button>
+              <button mat-icon-button type="button" [disabled]="paginacionTabla.hasNextPage() === false" (click)="paginacionTabla.nextPage()">
+                <mat-icon>chevron_right</mat-icon>
+              </button>
+            </div>
+          </mat-paginator> -->
