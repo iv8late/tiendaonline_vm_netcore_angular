@@ -17,13 +17,8 @@
   <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
     <div class="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
       <div>
-        <h6 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-relaxed text-blue-gray-900 mb-4">Usuarios</h6>
-        <button (click)="nuevoUsuario()" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50
-         disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white bg-blue-500 hover:bg-blue-600
-          active:bg-blue-700 w-40 space-x-2" type="button">
-          <i class="fi fi-rr-user-add"></i>
-          <span>Nuevo Usuario</span>
-        </button>
+        <h6 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-relaxed text-blue-gray-900 mt-">Usuarios</h6>
+        
       </div>
     </div>
     <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
@@ -52,7 +47,7 @@
             <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.nombreCompleto }}</td>
             <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.correo }}</td>
             <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.rolDescripcion }}</td>
-            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.esActivo == 1 ? 'Activo' : 'No Activo' }}</td>
+            <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ usuario.estado == 1 ? 'Activo' : 'No Activo' }}</td>
             <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">
               <div class="flex gap-2">
                 <button (click)="editarUsuario(usuario)" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700" type="button">

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
-import { ResponseApi } from '../Interfaces/response-api';
+import { ResponseApi, ResponseApi2 } from '../Interfaces/response-api';
 import { Login } from '../Interfaces/login';
 import { Usuario } from '../Interfaces/usuario';
 import { catchError } from 'rxjs/operators';
@@ -15,8 +15,8 @@ export class UsuarioService {
 
   constructor(private http: HttpClient) { }
 
-  iniciarSesion(request: Login): Observable<ResponseApi> {
-    return this.http.post<ResponseApi>(`${this.urlApi}IniciarSesion`, request).pipe(
+  iniciarSesion(request: Login): Observable<ResponseApi2> {
+    return this.http.post<ResponseApi2>(`${this.urlApi}IniciarSesion`, request).pipe(
       catchError((error) => {
         console.error('Error iniciar sesion:', error);
         return throwError(() => new Error('Failed to log in'));

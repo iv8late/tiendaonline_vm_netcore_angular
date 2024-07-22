@@ -81,3 +81,4 @@ C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.API\obj\Debug\net8
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.API\obj\Debug\net8.0\MITIENDA.API.pdb
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.API\obj\Debug\net8.0\MITIENDA.API.genruntimeconfig.cache
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.API\obj\Debug\net8.0\ref\MITIENDA.API.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.API\obj\Debug\net8.0\MITIENDA.API.sourcelink.json

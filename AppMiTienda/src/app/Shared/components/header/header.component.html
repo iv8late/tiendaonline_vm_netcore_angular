@@ -5,7 +5,7 @@
   <div class="flex place-items-center gap-2">
     
       <button *ngIf="!authService.estaAutenticado()" (click)="ingresarUsuario()"class="middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-cyan-300 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 xl:flex items-center gap-2 px-2" type="button">
-        <i class="fi fi-rr-user-add"></i>Iniciar Sesión
+        <i class="fi fi-rs-chart-user"></i>Iniciar Sesión
       </button>
       <button  (click)="nuevoUsuario()"class="middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-cyan-300 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 xl:flex items-center gap-2 px-8" type="button">
         <i class="fi fi-rr-user-add"></i>Registrar
@@ -26,6 +26,8 @@
       <a routerLink="/productos" class="hover:text-blue-400 uppercase flex items-center gap-2"><i class="fi fi-rr-computer"></i>Productos</a>
       <a routerLink="/perfil" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-rr-user"></i>Perfil</a>
       <a routerLink="/cesta" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-rs-basket-shopping-minus"></i>Mi Cesta</a>
+      <a routerLink="/inventario" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-tr-inventory-alt"></i>Inventario</a>
+      <a routerLink="/usuarios" class="hover:text-blue-400 uppercase flex items-center gap-1"><i class="fi fi-ts-circle-user"></i>Usuarios</a>
     </div>
     <div class="flex space-x-4">
      

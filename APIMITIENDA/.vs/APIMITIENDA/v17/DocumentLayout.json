@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dto\\detallecarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|solutionrelative:mitienda.dto\\detallecarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|solutionrelative:mitienda.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|solutionrelative:mitienda.dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.bll\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|solutionrelative:mitienda.bll\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.bll\\servicios\\contratos\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|solutionrelative:mitienda.bll\\servicios\\contratos\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.bll\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|solutionrelative:mitienda.bll\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|solutionrelative:mitienda.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.api\\mitienda.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|solutionrelative:mitienda.api\\mitienda.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dto\\sesiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|solutionrelative:mitienda.dto\\sesiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F4CE20-96AE-4720-8038-1FCDF9D86735}|MITIENDA.Utility\\MITIENDA.Utility.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.utility\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F4CE20-96AE-4720-8038-1FCDF9D86735}|MITIENDA.Utility\\MITIENDA.Utility.csproj|solutionrelative:mitienda.utility\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899390B9-08FA-4D15-BE3D-BF080F6A27E0}|MITIENDA.DAL\\MITIENDA.DAL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dal\\repositorios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899390B9-08FA-4D15-BE3D-BF080F6A27E0}|MITIENDA.DAL\\MITIENDA.DAL.csproj|solutionrelative:mitienda.dal\\repositorios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,40 +47,12 @@
       "RelativeMoniker": "D:0:0:{CC0EB575-7035-485F-98B7-781DAB6A1C87}|MITIENDA.API\\MITIENDA.API.csproj|solutionrelative:mitienda.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.bll\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|solutionrelative:mitienda.bll\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74F4CE20-96AE-4720-8038-1FCDF9D86735}|MITIENDA.Utility\\MITIENDA.Utility.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.utility\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F4CE20-96AE-4720-8038-1FCDF9D86735}|MITIENDA.Utility\\MITIENDA.Utility.csproj|solutionrelative:mitienda.utility\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.bll\\servicios\\contratos\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|solutionrelative:mitienda.bll\\servicios\\contratos\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dto\\facturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|solutionrelative:mitienda.dto\\facturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|solutionrelative:mitienda.dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA9F706-E4E5-4625-89F1-29BA1E1CBB58}|MITIENDA.Models\\MITIENDA.Models.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA9F706-E4E5-4625-89F1-29BA1E1CBB58}|MITIENDA.Models\\MITIENDA.Models.csproj|solutionrelative:mitienda.models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.bll\\servicios\\contratos\\icarritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D933253-59B8-4807-A466-365EAA247908}|MITIENDA.BLL\\MITIENDA.BLL.csproj|solutionrelative:mitienda.bll\\servicios\\contratos\\icarritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F821A587-AC80-4EC0-B7A7-5CE0AA72E731}|MITIENDA.DTO\\MITIENDA.DTO.csproj|solutionrelative:mitienda.dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E109F0C0-B609-4C79-9EF0-50D998D26B9B}|MITIENDA.IOC\\MITIENDA.IOC.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.ioc\\dependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E109F0C0-B609-4C79-9EF0-50D998D26B9B}|MITIENDA.IOC\\MITIENDA.IOC.csproj|solutionrelative:mitienda.ioc\\dependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899390B9-08FA-4D15-BE3D-BF080F6A27E0}|MITIENDA.DAL\\MITIENDA.DAL.csproj|c:\\users\\adm\\documents\\vcs\\pruebavm_iddh\\apimitienda\\mitienda.dal\\dbcontext\\mitiendacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899390B9-08FA-4D15-BE3D-BF080F6A27E0}|MITIENDA.DAL\\MITIENDA.DAL.csproj|solutionrelative:mitienda.dal\\dbcontext\\mitiendacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,164 +62,169 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1117,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetalleCarritoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\DetalleCarritoDTO.cs",
-              "RelativeDocumentMoniker": "MITIENDA.DTO\\DetalleCarritoDTO.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\DetalleCarritoDTO.cs",
-              "RelativeToolTip": "MITIENDA.DTO\\DetalleCarritoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\Contratos\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "MITIENDA.BLL\\Servicios\\Contratos\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\Contratos\\IUsuarioService.cs",
+              "RelativeToolTip": "MITIENDA.BLL\\Servicios\\Contratos\\IUsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T12:46:48.437Z",
+              "WhenOpened": "2024-07-22T00:40:36.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\Contratos\\IProductoService.cs",
-              "RelativeDocumentMoniker": "MITIENDA.BLL\\Servicios\\Contratos\\IProductoService.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\Contratos\\IProductoService.cs",
-              "RelativeToolTip": "MITIENDA.BLL\\Servicios\\Contratos\\IProductoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "DocumentIndex": 8,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DAL\\Repositorios\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "MITIENDA.DAL\\Repositorios\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DAL\\Repositorios\\GenericRepository.cs",
+              "RelativeToolTip": "MITIENDA.DAL\\Repositorios\\GenericRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T09:43:45.236Z"
+              "WhenOpened": "2024-07-21T22:25:26.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "MITIENDA.BLL\\Servicios\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\UsuarioService.cs",
+              "RelativeToolTip": "MITIENDA.BLL\\Servicios\\UsuarioService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:21:41.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MITIENDA.API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "MITIENDA.API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwC0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:17:45.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MITIENDA.API",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\MITIENDA.API.csproj",
+              "RelativeDocumentMoniker": "MITIENDA.API\\MITIENDA.API.csproj",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\MITIENDA.API.csproj",
+              "RelativeToolTip": "MITIENDA.API\\MITIENDA.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T00:07:35.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MITIENDA.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\appsettings.json",
+              "RelativeToolTip": "MITIENDA.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T00:08:08.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductoService.cs",
               "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\ProductoService.cs",
               "RelativeDocumentMoniker": "MITIENDA.BLL\\Servicios\\ProductoService.cs",
               "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\ProductoService.cs",
               "RelativeToolTip": "MITIENDA.BLL\\Servicios\\ProductoService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwDEAAAANAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAASwDIAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T09:41:12.071Z"
+              "WhenOpened": "2024-07-21T22:23:46.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FacturaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\FacturaDTO.cs",
-              "RelativeDocumentMoniker": "MITIENDA.DTO\\FacturaDTO.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\FacturaDTO.cs",
-              "RelativeToolTip": "MITIENDA.DTO\\FacturaDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:04:06.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarritoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\CarritoDTO.cs",
-              "RelativeDocumentMoniker": "MITIENDA.DTO\\CarritoDTO.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\CarritoDTO.cs",
-              "RelativeToolTip": "MITIENDA.DTO\\CarritoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:03:14.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\ProductoDTO.cs",
-              "RelativeDocumentMoniker": "MITIENDA.DTO\\ProductoDTO.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\ProductoDTO.cs",
-              "RelativeToolTip": "MITIENDA.DTO\\ProductoDTO.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:10:02.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "MITIENDA.API\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "MITIENDA.API\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAowDMAAAAiAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAADgvzQAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:57:43.857Z"
+              "WhenOpened": "2024-07-21T22:22:54.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "MITIENDA.API\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "MITIENDA.API\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwCwAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "SesionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\SesionDTO.cs",
+              "RelativeDocumentMoniker": "MITIENDA.DTO\\SesionDTO.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\SesionDTO.cs",
+              "RelativeToolTip": "MITIENDA.DTO\\SesionDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T09:47:57.268Z"
+              "WhenOpened": "2024-07-21T22:18:16.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICarritoService.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\Contratos\\ICarritoService.cs",
-              "RelativeDocumentMoniker": "MITIENDA.BLL\\Servicios\\Contratos\\ICarritoService.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.BLL\\Servicios\\Contratos\\ICarritoService.cs",
-              "RelativeToolTip": "MITIENDA.BLL\\Servicios\\Contratos\\ICarritoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:38:29.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AutomapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.Utility\\AutomapperProfile.cs",
               "RelativeDocumentMoniker": "MITIENDA.Utility\\AutomapperProfile.cs",
               "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.Utility\\AutomapperProfile.cs",
               "RelativeToolTip": "MITIENDA.Utility\\AutomapperProfile.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBcAAAAAAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAQwI4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:38:14.126Z"
+              "WhenOpened": "2024-07-21T21:46:10.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.Models\\Producto.cs",
-              "RelativeDocumentMoniker": "MITIENDA.Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.Models\\Producto.cs",
-              "RelativeToolTip": "MITIENDA.Models\\Producto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "DocumentIndex": 10,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "MITIENDA.API\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.API\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "MITIENDA.API\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:09:57.942Z"
+              "WhenOpened": "2024-07-21T22:02:01.384Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "MITIENDA.DTO\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\CategoriaDTO.cs",
+              "RelativeToolTip": "MITIENDA.DTO\\CategoriaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T21:47:07.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Dependencias.cs",
               "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.IOC\\Dependencias.cs",
               "RelativeDocumentMoniker": "MITIENDA.IOC\\Dependencias.cs",
               "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.IOC\\Dependencias.cs",
               "RelativeToolTip": "MITIENDA.IOC\\Dependencias.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:38:00.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MitiendaContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DAL\\DBContext\\MitiendaContext.cs",
-              "RelativeDocumentMoniker": "MITIENDA.DAL\\DBContext\\MitiendaContext.cs",
-              "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DAL\\DBContext\\MitiendaContext.cs",
-              "RelativeToolTip": "MITIENDA.DAL\\DBContext\\MitiendaContext.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:37:37.71Z"
+              "WhenOpened": "2024-07-21T21:45:30.07Z"
             }
           ]
         }

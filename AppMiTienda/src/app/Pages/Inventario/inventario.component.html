@@ -1,0 +1,83 @@
+<div class="mb-4 grid grid-cols-1 gap-6 xl:grid-cols-2">
+    <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
+      <div class="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
+        <div>
+          <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900 mb-1">Productos</h6>
+          <p class="antialiased font-sans text-sm leading-normal flex items-center gap-1 font-normal text-blue-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-4 w-4 text-blue-500">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+            </svg> <strong> {{ totalStock }} productos</strong> en stock </p>
+        </div>
+        <button (click)="nuevoProducto()" class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 
+        disabled:shadow-none disabled:pointer-events-none text-xs py-3 pl-4 pr-4 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+          Añadir Producto
+        </button>
+      </div>
+      <div class="p-6 overflow-x-scroll px-0 pt-0 pb-2">
+        <table class="w-full min-w-[640px] table-auto">
+          <thead>
+            <tr>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Nombre</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Categoría</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Stock</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Precio</p>
+              </th>
+              <th class="border-b border-blue-gray-50 py-3 px-6 text-left">
+                <p class="block antialiased font-sans text-[11px] font-medium uppercase text-blue-gray-400">Acciones</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor=" let producto of dataListaProductos.data">
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.nombre }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.descripcionCategoria }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.stock }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">{{ producto.precio | currency }}</td>
+              <td class="border-b border-blue-gray-50 py-3 px-6 text-left text-sm">
+             
+                <div class="flex gap-2">
+                  <button (click)="editarProducto(producto)"class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700" type="button">
+                    Editar
+                  </button>
+                  <button (click)="eliminarProducto(producto)"class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-red-500 hover:bg-red-600 active:bg-red-700" type="button">
+                    Borrar
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+       <div class="p-6 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="text-sm text-gray-600">Usuarios por página:</span>
+          <select 
+           class="border border-gray-300 rounded-md text-sm">
+            <option>10</option>
+            <option>20</option>
+            <option>50</option>
+          </select> 
+        </div>
+        <div class="flex items-center gap-2">
+          <button  class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+            Anterior
+          </button>
+          <input type="number" [(ngModel)]="paginaActual" class="w-12 text-center border border-gray-300 rounded-md text-sm" placeholder="1">
+          <button  class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-1 px-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700" type="button">
+            Siguiente
+          </button>
+        </div>
+      </div> 
+
+
+
+    </div>
+  </div>
+  

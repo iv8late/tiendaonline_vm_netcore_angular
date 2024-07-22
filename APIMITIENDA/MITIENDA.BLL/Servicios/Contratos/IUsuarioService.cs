@@ -12,7 +12,7 @@ namespace MITIENDA.BLL.Servicios.Contratos
     {
         Task<List<UsuarioDTO>> Lista();
 
-        Task<SesionDTO> ValidarCredenciales(string correo, string clave);
+        Task<UsuarioDTO> ValidarCredenciales(string correo, string clave);
 
         Task<UsuarioDTO> Crear(UsuarioDTO modelo);
 

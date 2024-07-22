@@ -19,3 +19,4 @@ C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.BLL\obj\Debug\net8
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.BLL\obj\Debug\net8.0\refint\MITIENDA.BLL.dll
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.BLL\obj\Debug\net8.0\MITIENDA.BLL.pdb
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.BLL\obj\Debug\net8.0\ref\MITIENDA.BLL.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.BLL\obj\Debug\net8.0\MITIENDA.BLL.sourcelink.json

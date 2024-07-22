@@ -40,7 +40,7 @@ namespace MITIENDA.BLL.Servicios
 
         }
 
-        public async Task<SesionDTO> ValidarCredenciales(string correo, string clave)
+        public async Task<UsuarioDTO> ValidarCredenciales(string correo, string clave)
         {
             try
             {
@@ -54,7 +54,7 @@ namespace MITIENDA.BLL.Servicios
                     throw new TaskCanceledException("El usuario no existe");
                 Usuario devolverUsuario = queryUsuario.Include(rol => rol.IdRolNavigation).First();
                 
-                return _mapper.Map<SesionDTO>(devolverUsuario);
+                return _mapper.Map<UsuarioDTO>(devolverUsuario);
 
 
 
@@ -78,7 +78,7 @@ namespace MITIENDA.BLL.Servicios
                 var query = await _usuarioRepositorio.Consultar(u => u.IdUsuario == usuarioCreado.IdUsuario);
                 usuarioCreado = query.Include(rol => rol.IdRolNavigation).First();
                 
-                return _mapper.Map<UsuarioDTO>(usuarioCreado);
+                return _mapper.Map<UsuarioDTO>(usuarioCreado);//mapeo
 
             } catch (Exception)                                                               {
 

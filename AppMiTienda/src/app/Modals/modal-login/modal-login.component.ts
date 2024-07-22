@@ -70,11 +70,12 @@ export class ModalLoginComponent implements OnInit {
   }
  
 
-  iniciarSesion() {
-    const loginData = this.formularioLogin.value;
-    this._authServicio.iniciarSesion(loginData.email, loginData.password).subscribe({
+  iniciarSesion(correo:string, clave:string) {
+    
+    this._authServicio.iniciarSesion(correo,clave).subscribe({
       next: (response) => {
         if (response.status) {
+          this.cerrarModal();
           this.router.navigate(['/perfil']);
         } else {
           this._utilidadServicio.showAlert('Credenciales incorrectas', 'Error');

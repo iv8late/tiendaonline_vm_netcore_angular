@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MITIENDA.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+440cb750ef7f5120d84f4a99012c4bb35da0308c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MITIENDA.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MITIENDA.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

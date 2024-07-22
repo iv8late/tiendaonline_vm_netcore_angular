@@ -44,7 +44,7 @@ export class ModalRegistroComponent implements OnInit {
         idRol: ['2', Validators.required],
         rolDescripcion: ['Cliente', Validators.required],
         clave: ['', Validators.required],
-        esActivo: ['1', Validators.required],
+        estado: ['1', Validators.required],
       });
 
 
@@ -74,7 +74,7 @@ export class ModalRegistroComponent implements OnInit {
         idRol: this.datosUsuario.idRol,
         rolDescripcion:this.datosUsuario.rolDescripcion,
         clave: this.datosUsuario.clave,
-        esActivo: this.datosUsuario.esActivo?.toString()
+        estado: this.datosUsuario.estado?.toString()
       })
     }
   }
@@ -86,9 +86,9 @@ export class ModalRegistroComponent implements OnInit {
       cedula:this.formularioUsuario.value.cedula,
       correo: this.formularioUsuario.value.correo,
       idRol: this.formularioUsuario.value.idRol,
-      rolDescripcion: "",
+      rolDescripcion: this.formularioUsuario.value.rolDescripcion,
       clave: this.formularioUsuario.value.clave,
-      esActivo: parseInt(this.formularioUsuario.value.esActivo),
+      estado: parseInt(this.formularioUsuario.value.estado),
     };
   
     if (this.datosUsuario == null) {

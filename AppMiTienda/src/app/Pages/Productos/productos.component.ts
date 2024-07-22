@@ -13,7 +13,7 @@ import { ModalCarritoComponent } from '../../Modals/modal-carrito/modal-carrito.
 import { Router } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule, formatCurrency } from '@angular/common';
 import Swal from 'sweetalert2';
 
 import { DetalleCarrito } from '../../Interfaces/detalle-carrito';
@@ -47,7 +47,7 @@ export default class ProductosComponent implements OnInit {
 
   ngOnInit(): void {
     this.obtenerProductos();
-    this.obtenerCategorias();
+    // this.obtenerCategorias();
   }
 
   agregarAlCarrito(producto: DetalleCarrito) {
@@ -58,25 +58,25 @@ export default class ProductosComponent implements OnInit {
     this.carrito?.openNav();
   }
 
-  obtenerCategorias(): void {
-    this._categoriaServicio.lista().subscribe({
-      next: (data) => {
-        if (data.status) {
-          this.categorias = data.value;
-          if (this.categorias.length > 0) {
-            this.categoriaSeleccionada = this.categorias[0].nombre;
+  // obtenerCategorias(): void {
+  //   this._categoriaServicio.lista().subscribe({
+  //     next: (data) => {
+  //       if (data.status) {
+  //         this.categorias = data.value;
+  //         if (this.categorias.length > 0) {
+  //           this.categoriaSeleccionada = this.categorias[0].nombre;
           
-            this.obtenerProductosPorCategoria(this.categoriaSeleccionada);
-          }
-        } else {
-          this._utilidadServicio.showAlert('No se encontraron categorías', 'Oops');
-        }
-      },
-      error: (err) => {
-        console.error('Error al obtener categorías:', err);
-      }
-    });
-  }
+  //           this.obtenerProductosPorCategoria(this.categoriaSeleccionada);
+  //         }
+  //       } else {
+  //         this._utilidadServicio.showAlert('No se encontraron categorías', 'Oops');
+  //       }
+  //     },
+  //     error: (err) => {
+  //       console.error('Error al obtener categorías:', err);
+  //     }
+  //   });
+  // }
 
 
   obtenerProductos(): void {
@@ -84,6 +84,7 @@ export default class ProductosComponent implements OnInit {
       next: (data) => {
         if (data.status) {
           this.productos=data.value;
+          this.productosFiltrados = data.value
           this.dataListaProductos.data = this.productos;
         } else {
           this._utilidadServicio.showAlert('No se encontraron datos', 'Oops');
@@ -92,32 +93,7 @@ export default class ProductosComponent implements OnInit {
       error: (err) => {}
     });
   }
-
-  obtenerProductosPorCategoria(categoria: string): void {
-    this._categoriaServicio.lista().subscribe({
-      next: (data) => {
-        if (data.status) {
-          this.productosFiltrados = data.value.filter((producto: Producto) => {  // Type assertion
-            return producto.descripcionCategoria === categoria;});
-          this.dataListaProductos.data = this.productosFiltrados;
-        } else {
-          this._utilidadServicio.showAlert('No se encontraron datos', 'Oops');
-        }
-      },
-      error: (err) => {
-        console.error('Error al obtener productos:', err);
-      }
-    });
-  }
-
  
-
- 
-
-  cambiarCategoria(categoria: string): void {
-    this.categoriaSeleccionada = categoria;
-    this.obtenerProductosPorCategoria(categoria);
-  }
 
   mostrarDetallesProducto(producto: Producto): void {
     Swal.fire({
@@ -125,7 +101,7 @@ export default class ProductosComponent implements OnInit {
       html: `
         <img src="${producto.urlImagen}" alt="${producto.nombre}" style="width: 100px; height: 100px;">
         <p>${producto.descripcion}</p>
-        <p><strong>Precio:</strong> $${producto.precio}</p>
+        <p><strong>Precio:</strong> ${formatCurrency(Number(producto.precio), 'en-US', '$', 'USD') }</p>
       `,
       showCloseButton: true,
       showCancelButton: true,

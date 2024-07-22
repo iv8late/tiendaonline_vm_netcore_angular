@@ -20,7 +20,7 @@ INSERT INTO Categoria(nombre,estado) values
 GO
 
 INSERT INTO Producto(nombre,idCategoria,stock,precio,urlImagen, descripcion, estado) values
-('laptop hp victus',1,40,2500,'https://www.computron.com.ec/wp-content/uploads/2023/05/16-D0510LA-3-768x768.jpg','Laptop HP Victus 16.1" color gris oscuro 16GB de Ram - 512GB SSD - Intel Ci7', 1),
+('laptop hp victus',1,40,'2500.00','https://www.computron.com.ec/wp-content/uploads/2023/05/16-D0510LA-3-768x768.jpg','Laptop HP Victus 16.1" color gris oscuro 16GB de Ram - 512GB SSD - Intel Ci7', 1),
 ('laptop lenovo ideapad',1,30,1200,'https://www.computron.com.ec/wp-content/uploads/2023/11/81WE01Q6LM-768x768.jpg','Laptop IdeaPad 3 15.6" color gris platinado 8GB de Ram - 256GB SSD - Intel Core i5', 1),
 ('laptop hp',1,30,1100,'https://www.computron.com.ec/wp-content/uploads/2024/02/14-DQ5012LA-768x768.jpg','Laptop HP 3 14" color gris platinado claro 8GB de Ram - 512GB SSD - Intel Ci3',1),
 ('monitor lg',2,25, 400,'https://www.computron.com.ec/wp-content/uploads/2024/02/27MP60G-B-768x768.jpg','Monitor LG 27" color negro conn rojo LED FLAT - IPS 1080p',1),

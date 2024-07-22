@@ -46,6 +46,10 @@ export const routes: Routes = [
             path: 'registro',
             loadComponent: () => import('./Pages/Registro/registro.component')
         },
+        {
+            path: 'inventario',
+            loadComponent: () => import('./Pages/Inventario/inventario.component')
+        },
     ]
     },
     {

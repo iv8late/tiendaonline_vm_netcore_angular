@@ -42,7 +42,7 @@ export class ModalUsuarioComponent implements OnInit {
         correo: ['', Validators.required],
         idRol: ['', Validators.required],
         clave: ['', Validators.required],
-        esActivo: ['1', Validators.required],
+        estado: ['1', Validators.required],
       });
 
 
@@ -70,7 +70,7 @@ export class ModalUsuarioComponent implements OnInit {
         correo: this.datosUsuario.correo,
         idRol: this.datosUsuario.idRol,
         clave: this.datosUsuario.clave,
-        esActivo: this.datosUsuario.esActivo?.toString()
+        estado: this.datosUsuario.estado?.toString()
       })
     }
   }
@@ -79,12 +79,12 @@ export class ModalUsuarioComponent implements OnInit {
     const _usuario: Usuario = {
       idUsuario: this.datosUsuario == null ? 0 : this.datosUsuario.idUsuario,
       nombreCompleto: this.formularioUsuario.value.nombreCompleto,
-      cedula:this.formularioUsuario.value.cedula,
+      cedula:this.datosUsuario.cedula,
       correo: this.formularioUsuario.value.correo,
       idRol: this.formularioUsuario.value.idRol,
       rolDescripcion: "",
       clave: this.formularioUsuario.value.clave,
-      esActivo: parseInt(this.formularioUsuario.value.esActivo),
+      estado: parseInt(this.formularioUsuario.value.estado),
     };
   
     if (this.datosUsuario == null) {

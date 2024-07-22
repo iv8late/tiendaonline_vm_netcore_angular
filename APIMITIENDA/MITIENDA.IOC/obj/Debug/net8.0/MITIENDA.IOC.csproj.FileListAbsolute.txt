@@ -21,3 +21,4 @@ C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.IOC\obj\Debug\net8
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.IOC\obj\Debug\net8.0\refint\MITIENDA.IOC.dll
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.IOC\obj\Debug\net8.0\MITIENDA.IOC.pdb
 C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.IOC\obj\Debug\net8.0\ref\MITIENDA.IOC.dll
+C:\Users\ADM\Documents\vcs\PruebaVM_IDDH\APIMITIENDA\MITIENDA.IOC\obj\Debug\net8.0\MITIENDA.IOC.sourcelink.json

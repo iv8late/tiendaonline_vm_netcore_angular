@@ -6,13 +6,13 @@
           Nuestros productos:
         </span>
         <div class="flex items-center gap-6" id="store-nav-content">
-          <button class="pl-3 inline-block no-underline text-indigo-700 hover:text-black" (click)="cambiarCategoria('Laptops')">Laptops
+          <button class="pl-3 inline-block no-underline text-indigo-700 hover:text-black" (click)="filtrarProductosPorCategoria('Laptops')">Laptops
             <i class="fi fi-rs-laptop"></i>
           </button>
-          <button class="pl-3 inline-block no-underline text-indigo-700 hover:text-black" (click)="cambiarCategoria('Monitores')">Monitores
+          <button class="pl-3 inline-block no-underline text-indigo-700 hover:text-black" (click)="filtrarProductosPorCategoria('Monitores')">Monitores
             <i class="fi fi-rs-laptop"></i>
           </button>
-          <button class="pl-3 inline-block no-underline text-indigo-700 hover:text-black" (click)="cambiarCategoria('Teclados')">Teclados
+          <button class="pl-3 inline-block no-underline text-indigo-700 hover:text-black" (click)="filtrarProductosPorCategoria('Teclados')">Teclados
             <i class="fi fi-rs-laptop"></i>
           </button>
         </div>
@@ -20,8 +20,8 @@
     </nav>
 
     <div class="w-full flex flex-wrap">
-      <div *ngFor="let producto of productos" class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" (click)="mostrarDetallesProducto(producto)">
-        <a href="#">
+      <div *ngFor="let producto of productosFiltrados" class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" (click)="mostrarDetallesProducto(producto)">
+        <a >
           <img class="hover:grow hover:shadow-lg hover:shadow-purple-950" [src]="producto.urlImagen" alt="{{ producto.nombre }}">
           <div class="pt-8 flex items-center justify-between">
             <p class="">{{ producto.nombre }}</p>

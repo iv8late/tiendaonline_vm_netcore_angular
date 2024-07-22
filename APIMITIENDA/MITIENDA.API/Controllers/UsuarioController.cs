@@ -43,7 +43,7 @@ namespace MITIENDA.API.Controllers
 
         public async Task<IActionResult> IniciarSesion([FromBody] LoginDTO login)
         {
-            var rsp = new Response<SesionDTO>();
+            var rsp = new Response<UsuarioDTO>();
             try
             {
                 rsp.status = true;
