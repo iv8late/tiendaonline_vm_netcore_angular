@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "MITIENDA.DTO\\DetalleCarritoDTO.cs",
               "ToolTip": "C:\\Users\\ADM\\Documents\\vcs\\PruebaVM_IDDH\\APIMITIENDA\\MITIENDA.DTO\\DetalleCarritoDTO.cs",
               "RelativeToolTip": "MITIENDA.DTO\\DetalleCarritoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T12:46:48.437Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "MITIENDA.BLL\\Servicios\\Contratos\\IProductoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T09:43:45.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T09:43:45.236Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "MITIENDA.BLL\\Servicios\\ProductoService.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAqwDEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T09:41:12.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T09:41:12.071Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "MITIENDA.DTO\\FacturaDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:04:06.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T08:04:06.159Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "MITIENDA.DTO\\CarritoDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:03:14.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T08:03:14.812Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "MITIENDA.DTO\\ProductoDTO.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:10:02.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T06:10:02.912Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "MITIENDA.API\\Controllers\\ProductoController.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAowDMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:57:43.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T16:57:43.857Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "MITIENDA.API\\Controllers\\CategoriaController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAYwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T09:47:57.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T09:47:57.268Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "MITIENDA.Utility\\AutomapperProfile.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAQwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:38:14.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T13:38:14.126Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "MITIENDA.Models\\Producto.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:09:57.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T06:09:57.942Z"
             },
             {
               "$type": "Document",
